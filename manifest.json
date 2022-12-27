@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Dark Scrollbar",
+  "version": "1.0",
+  "description": "Set scrollbar color to dark while using dark theme on Youtube.",
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://*.youtube.com/*"
+      ]
+    }
+  ]
+}
