@@ -3,6 +3,9 @@
   "name": "Youtube Dark Scrollbar",
   "version": "1.0",
   "description": "Set scrollbar color to dark while using dark theme on Youtube.",
+  "icons": {
+    "128": "icon.png"
+  },
   "content_scripts": [
     {
       "js": [
